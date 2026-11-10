@@ -1,0 +1,17 @@
+.git
+.gitignore
+.vscode
+.idea
+__pycache__
+*.pyc
+venv/
+.env
+core/*.o
+core/verderotas
+core/tests/test_pilha
+*.db
+*.sqlite
+docs/
+README.md
+PROMPT_CLAUDE_CODE.md
+RespiraGynBanner.pdf

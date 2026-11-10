@@ -1,0 +1,27 @@
+# Blueprint do Render.com para o RespiraGyn
+# -----------------------------------------------------------------------------
+# Como usar:
+#   1. Faca push do repo para o GitHub.
+#   2. No Render, clique em "New +" -> "Blueprint" e aponte pro repo.
+#   3. O Render detecta este render.yaml e levanta o servico.
+#
+# Nao requer banco gerenciado: o SQLite roda dentro do container.
+# Se quiser persistir o .db entre deploys, adicione um disco persistente
+# na UI do Render apontando para /app/backend (campo "mount path").
+# -----------------------------------------------------------------------------
+
+services:
+  - type: web
+    name: respiragyn
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/setores
+    envVars:
+      - key: PORT
+        value: "10000"              # Render exige 10000 por padrao
+      # Para usar a API real do Google Maps, adicione a chave na UI do Render
+      # (nao commite no repo).
+      # - key: GOOGLE_MAPS_API_KEY
+      #   sync: false

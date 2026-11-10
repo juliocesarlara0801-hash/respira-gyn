@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RespiraGyn — Boletim de CO₂ de Goiânia</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="chrome">
+    <div class="chrome-marca">
+      <span class="marca-barra" aria-hidden="true"></span>
+      <div class="marca-texto">
+        <h1>RespiraGyn</h1>
+        <p>Boletim de CO₂ · Goiânia, Cerrado</p>
+      </div>
+    </div>
+    <div class="chrome-status">
+      <span class="status-ponto" id="status-ponto" aria-hidden="true"></span>
+      <span class="status-texto" id="status">carregando leituras</span>
+      <span class="status-countdown" id="countdown" aria-live="polite"></span>
+      <button id="btn-pausar" title="Pausar / retomar atualização automática" aria-pressed="false">
+        <span>Pausar</span>
+      </button>
+      <button id="btn-atualizar" title="Atualizar leituras agora">
+        <span>Atualizar</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="mapa-wrap">
+      <div id="mapa"></div>
+      <div class="mapa-legenda" aria-label="Escala de PPM">
+        <span class="mapa-legenda-titulo">PPM estimado</span>
+        <div class="escala-gradiente" aria-hidden="true"></div>
+        <div class="escala-ticks">
+          <span>420</span>
+          <span>700</span>
+          <span>1000</span>
+          <span>1300</span>
+          <span>1700+</span>
+        </div>
+      </div>
+    </section>
+
+    <aside id="painel" aria-label="Lista de setores monitorados">
+      <div class="painel-cabec">
+        <h2>Focos monitorados</h2>
+        <p class="painel-sub">Ordenado por PPM. Toque para abrir o registro histórico.</p>
+        <div id="filtros-prio" class="filtros-prio" role="group" aria-label="Filtrar por prioridade"></div>
+      </div>
+      <ol id="lista-setores" class="registro"></ol>
+      <p id="painel-vazio" class="painel-vazio oculto">
+        Nenhum setor nesta faixa agora. Ative outras cores no filtro.
+      </p>
+      <p class="painel-rodape">
+        Núcleo em C · pilha LIFO por setor · estimativa reempilhada a cada 15&nbsp;s.
+      </p>
+    </aside>
+  </main>
+
+  <!-- Modal de histórico -->
+  <div id="modal-historico" class="modal oculto" aria-hidden="true" role="dialog">
+    <div class="modal-caixa">
+      <button class="modal-fechar" id="btn-fechar-modal" aria-label="Fechar">×</button>
+      <div class="modal-topo">
+        <div class="modal-id" id="modal-id">00</div>
+        <div class="modal-tit">
+          <h3 id="modal-titulo">Histórico</h3>
+          <p id="modal-sub" class="modal-sub"></p>
+        </div>
+      </div>
+      <div class="modal-badges">
+        <span id="modal-badge-atual" class="chip chip-neutro oculto"></span>
+        <span id="modal-badge-prev"  class="chip chip-pico oculto"></span>
+      </div>
+      <div class="modal-canvas-wrap">
+        <canvas id="grafico-ppm"></canvas>
+      </div>
+      <p id="modal-vazio" class="modal-vazio oculto">
+        Sem leituras persistidas ainda neste setor.
+        Deixe o backend rodar alguns minutos para popular a pilha.
+      </p>
+      <footer class="modal-rodape">
+        Série em partes por milhão (ppm) estimada pelo núcleo em C
+        a partir de dados de tráfego da API.
+      </footer>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

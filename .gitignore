@@ -1,0 +1,25 @@
+# Binários C
+core/*.o
+core/respiragyn
+core/verderotas
+core/tests/test_pilha
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+# Banco (SQLite)
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

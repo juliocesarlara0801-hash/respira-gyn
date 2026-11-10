@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "nome": "Setor Bueno",
+    "lat": -16.7054,
+    "lng": -49.2731,
+    "area_km2": 2.5,
+    "especie_recomendada": "Ipê Amarelo (Handroanthus albus)",
+    "arvores_novas_sugeridas": 180
+  },
+  {
+    "id": 2,
+    "nome": "Marginal Botafogo",
+    "lat": -16.6786,
+    "lng": -49.2545,
+    "area_km2": 1.8,
+    "especie_recomendada": "Sibipiruna (Cenostigma pluviosum)",
+    "arvores_novas_sugeridas": 220
+  },
+  {
+    "id": 3,
+    "nome": "Setor Campinas",
+    "lat": -16.6698,
+    "lng": -49.2812,
+    "area_km2": 4.0,
+    "especie_recomendada": "Pau-ferro (Libidibia ferrea)",
+    "arvores_novas_sugeridas": 150
+  },
+  {
+    "id": 4,
+    "nome": "Avenida T-63 / Setor Nova Suíça",
+    "lat": -16.7232,
+    "lng": -49.2814,
+    "area_km2": 2.0,
+    "especie_recomendada": "Oiti (Licania tomentosa)",
+    "arvores_novas_sugeridas": 200
+  },
+  {
+    "id": 5,
+    "nome": "Setor Jaó",
+    "lat": -16.6403,
+    "lng": -49.2514,
+    "area_km2": 3.0,
+    "especie_recomendada": "Jacarandá-mimoso (Jacaranda mimosifolia)",
+    "arvores_novas_sugeridas": 90
+  },
+  {
+    "id": 6,
+    "nome": "Setor Vila Nova",
+    "lat": -16.6905,
+    "lng": -49.2399,
+    "area_km2": 2.2,
+    "especie_recomendada": "Aroeira-salsa (Schinus molle)",
+    "arvores_novas_sugeridas": 160
+  },
+  {
+    "id": 7,
+    "nome": "Praça do Trabalhador (Centro)",
+    "lat": -16.6786,
+    "lng": -49.2629,
+    "area_km2": 1.2,
+    "especie_recomendada": "Ipê Roxo (Handroanthus impetiginosus)",
+    "arvores_novas_sugeridas": 130
+  },
+  {
+    "id": 8,
+    "nome": "Setor Pedro Ludovico",
+    "lat": -16.7128,
+    "lng": -49.2614,
+    "area_km2": 2.8,
+    "especie_recomendada": "Resedá-gigante (Lagerstroemia speciosa)",
+    "arvores_novas_sugeridas": 140
+  },
+  {
+    "id": 9,
+    "nome": "Avenida Anhanguera (Centro)",
+    "lat": -16.6811,
+    "lng": -49.2558,
+    "area_km2": 1.6,
+    "especie_recomendada": "Ipê Branco (Tabebuia roseoalba)",
+    "arvores_novas_sugeridas": 260
+  },
+  {
+    "id": 10,
+    "nome": "Avenida 85 / Setor Marista",
+    "lat": -16.7111,
+    "lng": -49.2646,
+    "area_km2": 2.1,
+    "especie_recomendada": "Ipê Amarelo (Handroanthus albus)",
+    "arvores_novas_sugeridas": 230
+  },
+  {
+    "id": 11,
+    "nome": "Setor Oeste",
+    "lat": -16.6912,
+    "lng": -49.2707,
+    "area_km2": 2.3,
+    "especie_recomendada": "Jatobá-do-Cerrado (Hymenaea stigonocarpa)",
+    "arvores_novas_sugeridas": 170
+  },
+  {
+    "id": 12,
+    "nome": "Setor Sul",
+    "lat": -16.7008,
+    "lng": -49.2550,
+    "area_km2": 2.4,
+    "especie_recomendada": "Pequi (Caryocar brasiliense)",
+    "arvores_novas_sugeridas": 160
+  },
+  {
+    "id": 13,
+    "nome": "Setor Central (Praça Cívica)",
+    "lat": -16.6743,
+    "lng": -49.2652,
+    "area_km2": 1.0,
+    "especie_recomendada": "Ipê Roxo (Handroanthus impetiginosus)",
+    "arvores_novas_sugeridas": 110
+  },
+  {
+    "id": 14,
+    "nome": "Jardim Goiás",
+    "lat": -16.7119,
+    "lng": -49.2420,
+    "area_km2": 3.2,
+    "especie_recomendada": "Sibipiruna (Cenostigma pluviosum)",
+    "arvores_novas_sugeridas": 200
+  },
+  {
+    "id": 15,
+    "nome": "Parque Flamboyant",
+    "lat": -16.7094,
+    "lng": -49.2385,
+    "area_km2": 1.5,
+    "especie_recomendada": "Flamboyant (Delonix regia)",
+    "arvores_novas_sugeridas": 80
+  },
+  {
+    "id": 16,
+    "nome": "Setor Aeroporto",
+    "lat": -16.6990,
+    "lng": -49.2482,
+    "area_km2": 1.9,
+    "especie_recomendada": "Aroeira-pimenteira (Schinus terebinthifolia)",
+    "arvores_novas_sugeridas": 180
+  },
+  {
+    "id": 17,
+    "nome": "Vila Redenção",
+    "lat": -16.7221,
+    "lng": -49.2542,
+    "area_km2": 2.0,
+    "especie_recomendada": "Baru (Dipteryx alata)",
+    "arvores_novas_sugeridas": 190
+  },
+  {
+    "id": 18,
+    "nome": "Setor Negrão de Lima",
+    "lat": -16.7159,
+    "lng": -49.2735,
+    "area_km2": 1.7,
+    "especie_recomendada": "Copaíba (Copaifera langsdorffii)",
+    "arvores_novas_sugeridas": 150
+  },
+  {
+    "id": 19,
+    "nome": "Setor Universitário (UFG)",
+    "lat": -16.6703,
+    "lng": -49.2548,
+    "area_km2": 2.6,
+    "especie_recomendada": "Jequitibá-rosa (Cariniana legalis)",
+    "arvores_novas_sugeridas": 140
+  },
+  {
+    "id": 20,
+    "nome": "Alto da Glória",
+    "lat": -16.7066,
+    "lng": -49.2456,
+    "area_km2": 1.6,
+    "especie_recomendada": "Paineira (Ceiba speciosa)",
+    "arvores_novas_sugeridas": 120
+  },
+  {
+    "id": 21,
+    "nome": "Criméia Oeste",
+    "lat": -16.6598,
+    "lng": -49.2681,
+    "area_km2": 2.2,
+    "especie_recomendada": "Angico-vermelho (Anadenanthera macrocarpa)",
+    "arvores_novas_sugeridas": 170
+  },
+  {
+    "id": 22,
+    "nome": "Criméia Leste",
+    "lat": -16.6579,
+    "lng": -49.2473,
+    "area_km2": 2.0,
+    "especie_recomendada": "Mangabeira (Hancornia speciosa)",
+    "arvores_novas_sugeridas": 160
+  },
+  {
+    "id": 23,
+    "nome": "Avenida T-9 / Setor Bueno",
+    "lat": -16.7149,
+    "lng": -49.2793,
+    "area_km2": 1.8,
+    "especie_recomendada": "Ipê Rosa (Handroanthus heptaphyllus)",
+    "arvores_novas_sugeridas": 210
+  },
+  {
+    "id": 24,
+    "nome": "Avenida T-7 / Setor Oeste",
+    "lat": -16.6999,
+    "lng": -49.2755,
+    "area_km2": 1.7,
+    "especie_recomendada": "Pau-ferro (Libidibia ferrea)",
+    "arvores_novas_sugeridas": 200
+  },
+  {
+    "id": 25,
+    "nome": "Avenida Independência",
+    "lat": -16.6686,
+    "lng": -49.2706,
+    "area_km2": 1.5,
+    "especie_recomendada": "Cedro-rosa (Cedrela fissilis)",
+    "arvores_novas_sugeridas": 180
+  },
+  {
+    "id": 26,
+    "nome": "Avenida Castelo Branco",
+    "lat": -16.6834,
+    "lng": -49.2474,
+    "area_km2": 1.9,
+    "especie_recomendada": "Monjoleiro (Senna macranthera)",
+    "arvores_novas_sugeridas": 170
+  },
+  {
+    "id": 27,
+    "nome": "Setor Cidade Jardim",
+    "lat": -16.7343,
+    "lng": -49.2729,
+    "area_km2": 2.5,
+    "especie_recomendada": "Pitangueira (Eugenia uniflora)",
+    "arvores_novas_sugeridas": 150
+  },
+  {
+    "id": 28,
+    "nome": "Setor Nova Vila",
+    "lat": -16.6935,
+    "lng": -49.2566,
+    "area_km2": 1.4,
+    "especie_recomendada": "Ipê Branco (Tabebuia roseoalba)",
+    "arvores_novas_sugeridas": 140
+  },
+  {
+    "id": 29,
+    "nome": "Vila Abajá / Avenida Goiás",
+    "lat": -16.6650,
+    "lng": -49.2612,
+    "area_km2": 1.3,
+    "especie_recomendada": "Oiti (Licania tomentosa)",
+    "arvores_novas_sugeridas": 160
+  },
+  {
+    "id": 30,
+    "nome": "Setor Fama / Buriti Shopping",
+    "lat": -16.7286,
+    "lng": -49.2929,
+    "area_km2": 2.1,
+    "especie_recomendada": "Guapuruvu (Schizolobium parahyba)",
+    "arvores_novas_sugeridas": 170
+  }
+]
